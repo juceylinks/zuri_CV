@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@300&display=swap');
+
+
+*, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: roboto;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    
+    border: grey 2px solid;
+    padding: 40px;
+    margin: 20px;
+}
+.border{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+.circle{
+    width: 2%;
+    display: flex;
+    justify-content: center;
+    
+    height: 10%;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: grey;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+
+.head{
+    margin-bottom: 10px;
+}
+.name{
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.left{
+    width: 55%;
+}
+.head p{
+    margin-bottom: 50px;
+}
+.summary h3{
+    margin-bottom: 10px;
+}
+.summary p{
+    margin-bottom: 30px;
+}
+.experience h4{
+    margin-bottom: 20px;
+}
+.experience p{
+    margin-bottom: 30px;
+}
+
+.right{
+    width: 40%;
+}
+
+.skills h3{
+    margin-bottom: 20px;
+
+}
+
+.skills h5{
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.skills p{
+    margin-bottom: 20px;
+}
+
+.education h3{
+    margin-bottom: 20px;
+}
+.education p{
+    margin-bottom: 30px;
+}
+.education span{
+    font-weight: bolder;
+    
+}
+
+.talks h3{
+    margin-bottom: 20px;
+}
+.talks h4{
+    margin-bottom: 10px;
+}
+.talks p{
+    margin-bottom: 10px;
+}
+.talks span{
+    font-weight: bolder;
+}
+.contact h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact p{
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1200px ){
+    .container{
+        
+        border: grey 2px solid;
+        padding: 20px;
+        margin: 20px;
+    }
+   
+    .left{
+        width: 60%;
+    }
+    
+    .right{
+        width: 44%;
+    }
+    
+}
+
+@media screen and (max-width: 900px ){
+    .border{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: auto;
+    }
+    .circle{
+        width: 4%;
+        display: flex;
+        justify-content: center;
+        
+        height: 10%;
+        border-radius: 50%;
+        padding: 20px;
+        background-color: grey;
+        text-align: center;
+        color: white;
+        font-weight: bolder;
+    }
+    .left{
+        width: 100%;
+    }
+    
+    .right{
+        width: 100%;
+    }
+
+}
